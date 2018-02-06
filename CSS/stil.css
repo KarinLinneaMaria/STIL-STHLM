@@ -1,0 +1,634 @@
+/***********************
+RESET
+***********************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***********************
+END RESET
+***********************/
+
+
+
+
+/***********************
+INDEX PAGE
+***********************/
+
+body { 
+  background: url(test1dark.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     width: 100%;
+  height: auto;
+    position: relative;
+      margin: 0;
+  padding-bottom: 26em;
+  min-height: 100%;
+    opacity: 1; 
+    transition: opacity 1s; 
+}
+
+body.fadeOut {
+    
+    opacity: 0; 
+}
+
+
+/***********************
+HEADER
+***********************/
+
+h1 {display:none;
+	
+}
+
+
+#header {
+		width: 100%; 
+		height: auto;
+   
+		
+}
+
+#logo {text-align: center; 
+    width: 30%; 
+    margin: 0 auto; 
+    padding-top: 0em;
+    padding-bottom: 2em; 
+    
+    
+	
+}
+#logo a{
+   font-family:'oswald', sans-serif;
+    font-size: 50pt;
+font-style: normal;
+font-weight: ;
+    color: black;
+    text-decoration: none;
+ 
+    
+}
+
+#logo img {
+    
+    width: 60%; 
+
+    
+    
+}
+
+/***********************
+MENU
+***********************/
+ 
+
+/* Min huvudmeny längst upp  på sidan i en horisontal linje */
+ 
+
+
+nav {
+    display: table; 
+    margin: 0 auto;
+}
+ 
+nav li {
+     padding-top: 1em; 
+    display: inline-block;
+    font-family: 'oswald', sans-serif;
+	font-weight: bold;
+    font-size: 14pt;
+    padding: 2em;
+}
+ 
+nav ul {
+     display: inline-block;
+    
+}
+ 
+
+
+
+
+
+/***********************
+TEXTBOX
+***********************/
+
+.text-box {
+    margin-top: 3em;
+    margin-bottom: 50px;
+    opacity: 0.89;
+}
+ 
+.text-box li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em; 
+    font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+    font-size: 15pt;
+    background-color: white; 
+    padding: 2.6em 3.8em;
+
+}
+ 
+.text-box ul {
+    text-align: center;
+    
+}
+ 
+.text-box.block-element ul {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
+
+
+
+/* Länkstilmallar */
+
+a { text-decoration: none;
+}
+
+/* unvisited link */
+ a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkgrey;
+    
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+/***********************
+BILDER
+***********************/
+
+.box img {		
+		width: 100%; 
+		margin-top:1em;
+          margin: 0 auto; 
+}
+
+/***********************
+FOOTER
+***********************/
+
+/* Gör så att footern sträcker sig över hela botten av sidan.  */
+
+
+#footer{ 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    text-align: center;
+
+}
+
+
+/* Gör så att listan blir som en horisontal meny.  */ 
+   
+#footer p{
+	font-size: 10pt;
+	font-family: arial;
+    color: black;
+    text-align: center; 
+	margin-top:3em;	
+    margin-bottom:3em;
+	
+}	
+	  
+  
+/* Länkstilmallar */
+
+
+/* unvisited link */	
+#footer li a {
+	color:black;
+}	
+	
+
+/* mouse over link */
+#footer li a:hover {
+    color: grey;
+}	
+
+/***********************
+VISION PAGE 
+***********************/
+
+body.tjanster {
+    
+    padding-bottom: 10em; 
+}
+
+
+
+h2 {
+    
+    margin: 0 auto; 
+    text-align: center; 
+    font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+    font-size: 35pt;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0.5em;
+   
+}
+
+
+#background {
+    
+     background: url(test3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     width: 100%;
+  height: auto;
+}
+
+    
+ #info-box {
+     
+     margin-top: 2em;
+      width: 40%; 
+     height: auto;
+     margin: 0 auto; 
+     text-align: center; 
+     padding: 2.6em 3.8em;
+     background: white;
+     opacity: 0.89;
+     
+     
+        
+    }
+ 
+    #info-box p {
+       
+        line-height: 1.3em;
+        font-size: 14pt; 
+         font-family: 'Oswald', sans-serif;
+        
+    }
+
+#info-box a   {
+    margin-top: 1em; 
+   font-weight: bold; 
+        font-size: 18pt; 
+         font-family: 'Oswald', sans-serif;
+    
+}
+
+/***********************
+FOOTER
+***********************/
+
+#visionpagefooter {
+    
+       position: relative;
+    margin-top: 5em; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+/***********************
+TJANSTER PAGE 
+***********************/
+
+h3 {
+    margin-top: 1.7em;
+    font-size: 20pt; 
+    font-weight: bold; 
+    font-family: 'Oswald', sans-serif; 
+}
+
+#priser li {
+    
+    margin-top: 1em; 
+     font-size: 14pt; 
+    font-weight: bold; 
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+
+/***********************
+PORTFOLIO
+***********************/
+
+#Ramruntgalleri {
+    
+    margin-bottom: 0em; 
+}
+
+div.gallery {
+   
+    margin: 5px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+ 
+
+div.gallery img {
+    width: 80%;
+    display: block;
+    height: auto;
+    padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+div.desc {
+    padding: 12px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+}
+
+
+
+/***********************
+MEDIA QUERIE 1 ipad typ
+***********************/
+
+@media screen and (max-width: 830px) {
+	
+
+ 
+    
+/***********************
+INDEX PAGE : Header
+***********************/    
+
+#logo {
+    width: 45%; 
+    padding-bottom: 0em;
+    
+}
+        
+ nav li {
+     margin-top: 1em;
+    font-size: 14pt;
+    padding: 1em;
+} 
+    
+    
+nav {
+        margin-bottom: 1em;  }    
+       
+ 
+/***********************
+INDEX PAGE : Textbox
+***********************/     
+   
+
+
+    
+
+/***********************
+INDEX PAGE : Footer
+***********************/  
+    
+   
+
+		    
+    
+    
+/***********************
+END INDEX PAGE 
+***********************/
+/***********************
+VISION PAGE 
+***********************/
+
+
+h2 {
+    
+    font-size: 35pt;
+    margin-bottom: 0.5em; 
+   
+   
+}
+    
+ #info-box {
+     
+     margin-top: 1em;
+      width: 60%; 
+     
+        
+    }    
+
+
+ 
+    #info-box p {
+       
+        line-height: 1.2em;
+        font-size: 14pt; 
+       font-family: 'Oswald', sans-serif;
+        
+    }
+
+#info-box a   {
+    margin-top: 5em; 
+   font-weight: bold; 
+        font-size: 16pt; 
+        font-family: 'Oswald', sans-serif;
+    
+}
+
+}
+    
+
+/***********************
+PORTFOLIO PAGE 
+***********************/
+  
+
+
+/***********************
+END MEDIA QUERIE 1
+***********************/
+
+/***********************
+MEDIA QUERIE 2 mobil typ
+***********************/
+    
+@media screen and (max-width: 667px) {
+	
+
+ 
+    
+/***********************
+INDEX PAGE : Header
+***********************/    
+ 
+
+#logo img{
+    width: 90%; 
+}
+    
+
+        
+ nav li {
+     margin-top: 1em;
+    font-size: 16pt;
+    padding: 0em;
+} 
+    
+    
+ /***********************
+INDEX PAGE : Textbox
+***********************/     
+    
+    
+.text-box {
+   margin-top: 4em;
+    margin-bottom: 0em;
+    
+
+}
+    
+
+    
+.text-box li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em; 
+    font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+    font-size: 15pt;
+    background-color: white; 
+    padding: 3.6em 3.8em;
+
+}    
+ 
+    
+ /***********************
+OM OSS PAGE : INFOBOX
+***********************/      
+ #info-box {
+
+      width: 60%; 
+     padding: 2.1em 3.9em;
+
+     
+        
+    } 
+    
+    
+ /***********************
+PORTFOLIO PAGE : 
+***********************/       
+
+#Ramruntgalleri {
+    
+    margin-bottom: 0em; 
+}
+
+div.gallery {
+   
+    margin: 5px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+div.gallery:hover {
+    opacity: ;
+    
+     
+}
+
+ 
+
+div.gallery img {
+    width: 100%;
+    float: none; 
+    height: auto;
+    margin: 0 auto; 
+    padding-bottom: 2em;
+}
+
+}
+
+    
+    
+    
+    
